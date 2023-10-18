@@ -1,0 +1,22 @@
+/* Apply a color to specific list items */
+li[data-group="group1"] {
+  color: rgb(155, 155, 250);
+}
+
+/* Add brackets to the list items */
+li[data-group="group1"]::before {
+  content: "[";
+}
+li[data-group="group1"]::after {
+  content: "]";
+}
+
+mjx-math {
+  font-size: 150% !important;
+}
+
+/* Right-align text within aligned LaTeX environments */
+.math.display .aligned {
+  text-align: left;
+}
+
